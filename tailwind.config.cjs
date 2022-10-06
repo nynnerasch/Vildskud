@@ -3,12 +3,6 @@ module.exports = {
   content: ["./src/**/*.{html,vue,js,ts,jsx,tsx}"],
   theme: {
     extend: {},
-  },
-  plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
-};
-
-module.exports = {
-  theme: {
     colors: {
       gul: "#fffa96",
       navy: "#122851",
@@ -16,5 +10,9 @@ module.exports = {
       pink: "#ff70f0",
       sand: "#f8ead0",
     },
+    fontFamily: {
+      sans: ["Ultra", "sans-serif"],
+    },
   },
+  plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
 };
