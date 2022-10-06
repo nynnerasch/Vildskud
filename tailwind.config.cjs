@@ -9,6 +9,8 @@ module.exports = {
       blå: "#122aff",
       pink: "#ff70f0",
       sand: "#f8ead0",
+      red: "#F13434",
+      green: "#8AE388",
     },
     fontFamily: {
       sans: ["Ultra", "sans-serif"],
