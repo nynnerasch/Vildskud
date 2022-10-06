@@ -6,3 +6,15 @@ module.exports = {
   },
   plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
 };
+
+module.exports = {
+  theme: {
+    colors: {
+      gul: "#fffa96",
+      navy: "#122851",
+      blå: "#122aff",
+      pink: "#ff70f0",
+      sand: "#f8ead0",
+    },
+  },
+};
