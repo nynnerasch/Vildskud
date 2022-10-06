@@ -4,12 +4,6 @@
 
 @layer base {
   h2 {
-    font-family: "mighty-slab", serif;
-    font-weight:400;
-    font-style:normal;
-  }
-
-  h3 {
     font-family: "Ultra", sans-serif;
   }
 
