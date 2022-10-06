@@ -3,11 +3,13 @@
 @tailwind utilities;
 
 @layer base {
-  h1 {
-    font-family: "Mighty Slab", sans-serif;
+  h2 {
+    font-family: "mighty-slab", serif;
+    font-weight:400;
+    font-style:normal;
   }
 
-  h2 {
+  h3 {
     font-family: "Ultra", sans-serif;
   }
 
