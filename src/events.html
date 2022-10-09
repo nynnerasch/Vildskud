@@ -3,113 +3,191 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <link rel="stylesheet" href="https://use.typekit.net/axl7zbb.css">
+    <link rel="stylesheet" href="https://use.typekit.net/axl7zbb.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vildskud</title>
   </head>
   <body class="bg-[#f8ead0]">
-
-<!--ØVERSTE DEL-->
-<section>
-<img src="blaa_blob.svg" alt="blob" class="absolute max-w-full b-10">
-  <div class="relative md:mx:60">
-    <!--<img src="blomst.svg" alt="blomst" class="max-w-xs">-->
-    <div class="flex place-content-center">
-    <img src="overskrift.svg" alt="overskrift" class="max-w-xs max-h-min mt-5 mb-2 md:max-w-lg">
-    </div>
-    <h2 class="flex place-content-center text-2xl md:text-4xl md:place-content-end lg:pr-60 xl:pr text-navy">2.- 6. AUGUST</h2>
-    <div class="flex place-content-center">
-      <button class="border-4 border-navy text-navy p-3 text-sm md:p-7 bg-gul md:border-gul md:bg-opacity-0 md:text-gul m-5 hover:border-navy hover:text-navy hover:bg-gul md:text-md">KØB BILLETTER</button>
-  </div>
-    <!--NAVIGATION-->
-    <div class="bg-navy max-w-full py-2 md:py-8 content-center justify-center flex">
-      <button class="text-gul md:text-xl text-sm p-5 hover:border-gul hover:border-solid hover:border-4">EVENTS</button>
-      <button class="text-gul md:text-xl text-sm p-5 hover:border-gul hover:border-solid hover:border-4">VÆR MED</button>
-      <button class="text-gul md:text-xl text-sm p-5 hover:border-gul hover:border-solid hover:border-4">FESTIVALEN</button>
-      <button class="text-gul md:text-xl text-sm pl-5 hover:border-gul hover:border-solid hover:border-4">KONTAKT</button>
-    </div>
-    <!--NAVIGATION SLUT-->
-  </div>
-  </section>
-<!--ØVERSTE DEL SLUT-->
-
-<section class="pt-96 pb-10">
-    
-<div class="bg-pink box-border md:box-content md:mx-60 p-20 rounded-full">
-<h2 class="text-center text-gul text-3xl">Vildskud klæder dig på til fremtidens scenekunst</h2>
-<p class="text-center text-gul">Den 5. august til kl. 16:30-17:30 i Ukirke</p>
-</div>
-</section>
-
-<section class="pb-10">
-<div class="bg-pink box-border md:box-content md:mx-60 p-20 rounded-full">
-    <h2 class="text-center text-gul text-3xl">Vildskud klæder dig på til ny dansk dramatik</h2>
-    <p class="text-center text-gul">Den 4. august kl 16:30-17:30 i Ukirke</p>
-    </div>
-</section>
-
-<section>
-    <div class="bg-pink box-border md:box-content md:mx-60 p-20 rounded-full">
-        <h2 class="text-center text-gul text-3xl">Vildskud klæder dig på til scenekunst om tabu</h2>
-        <p class="text-center text-gul">Den 3. august kl 19-20 i Ukirke</p>
+    <!--ØVERSTE DEL-->
+    <section>
+      <img src="blaa_blob.svg" alt="blob" class="b-10 absolute max-w-full" />
+      <img
+        src="gåhjem.svg"
+        alt="gå hjem knap"
+        class="relative h-auto w-32 md:w-40 lg:w-56"
+      />
+      <div class="md:mx:60 relative">
+        <!--<img src="blomst.svg" alt="blomst" class="max-w-xs">-->
+        <div class="flex place-content-center">
+          <img
+            src="events.svg"
+            alt="overskrift"
+            class="mt-5 mb-2 max-h-min max-w-xs md:max-w-lg"
+          />
         </div>
+
+        <div class="flex place-content-center">
+          <button
+            class="md:text-md m-5 border-4 border-navy bg-gul p-3 text-sm text-navy hover:border-navy hover:bg-gul hover:text-navy md:border-gul md:bg-opacity-0 md:p-7 md:text-gul"
+          >
+            KØB BILLETTER
+          </button>
+        </div>
+        <!--NAVIGATION-->
+        <div
+          class="flex max-w-full content-center justify-center bg-navy py-2 md:py-8"
+        >
+          <button
+            class="p-5 text-sm text-gul hover:border-4 hover:border-solid hover:border-gul md:text-xl"
+          >
+            EVENTS
+          </button>
+          <button
+            class="p-5 text-sm text-gul hover:border-4 hover:border-solid hover:border-gul md:text-xl"
+          >
+            VÆR MED
+          </button>
+          <button
+            class="p-5 text-sm text-gul hover:border-4 hover:border-solid hover:border-gul md:text-xl"
+          >
+            FESTIVALEN
+          </button>
+          <button
+            class="pl-5 text-sm text-gul hover:border-4 hover:border-solid hover:border-gul md:text-xl"
+          >
+            KONTAKT
+          </button>
+        </div>
+        <!--NAVIGATION SLUT-->
+      </div>
+    </section>
+    <!--ØVERSTE DEL SLUT-->
+
+    <section class="pt-20 pb-10 md:pt-96">
+      <div class="box-border rounded-full bg-pink p-20 md:mx-60 md:box-content">
+        <h2 class="text-center text-3xl text-gul">
+          Vildskud klæder dig på til fremtidens scenekunst
+        </h2>
+        <p class="text-center text-gul">
+          Den 5. august til kl. 16:30-17:30 i Ukirke
+        </p>
+      </div>
     </section>
 
- <!--footer-->
+    <section class="pb-10">
+      <div class="box-border rounded-full bg-pink p-20 md:mx-60 md:box-content">
+        <h2 class="text-center text-3xl text-gul">
+          Vildskud klæder dig på til ny dansk dramatik
+        </h2>
+        <p class="text-center text-gul">
+          Den 4. august kl 16:30-17:30 i Ukirke
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <div class="box-border rounded-full bg-pink p-20 md:mx-60 md:box-content">
+        <h2 class="text-center text-3xl text-gul">
+          Vildskud klæder dig på til scenekunst om tabu
+        </h2>
+        <p class="text-center text-gul">Den 3. august kl 19-20 i Ukirke</p>
+      </div>
+    </section>
+
+    <!--footer-->
     <footer>
       <section class="blobnavy">
-      <div class="mx-auto container py-16 xl:px-20 lg:px-12 sm:px-6 px-4">
-        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 md:gap-8 gap-4">
-          <div class="sm:ml-0 ml-8 flex flex-col">
-            <h2 class="font-bold text-gul">Vildskud</h2>
-            <p class="text-gul">Vildskud er Københavns festival for uafhængig scenekunst. Vær med, se med. Vildskud er for alle der er interesserede i at dyrke og støtte spirende og uafhængige scenekunstnere.</p>
-          </div>
+        <div class="container mx-auto py-16 px-4 sm:px-6 lg:px-12 xl:px-20">
+          <div
+            class="grid grid-cols-2 gap-4 md:grid-cols-3 md:gap-8 lg:grid-cols-3 xl:grid-cols-3"
+          >
+            <div class="ml-8 flex flex-col sm:ml-0">
+              <h2 class="font-bold text-gul">Vildskud</h2>
+              <p class="text-gul">
+                Vildskud er Københavns festival for uafhængig scenekunst. Vær
+                med, se med. Vildskud er for alle der er interesserede i at
+                dyrke og støtte spirende og uafhængige scenekunstnere.
+              </p>
+            </div>
 
-          <div class="flex flex-col">
-            <h2 class="font-bold text-gul">Sociale medier</h2>
-            <p class="text-gul">Vil du gerne være den første til at høre, når der sker noget nyt for Vildskud? Så følg os på vores SoMe kanaler:</p>
-            <div class="flex w-10 gap-4 pt-4">
-<img src="face.svg" alt="facebook" class="">
-<img src="insta.svg" alt="insta" class="">
+            <div class="flex flex-col">
+              <h2 class="font-bold text-gul">Sociale medier</h2>
+              <p class="text-gul">
+                Vil du gerne være den første til at høre, når der sker noget nyt
+                for Vildskud? Så følg os på vores SoMe kanaler:
+              </p>
+              <div class="flex w-10 gap-4 pt-4">
+                <img src="face.svg" alt="facebook" class="" />
+                <img src="insta.svg" alt="insta" class="" />
+              </div>
+            </div>
+            <div class="hidden lg:block">
+              <label class="text-xl font-bold leading-5 text-gul"
+                >Hold dig opdateret!</label
+              >
+              <div
+                class="border-white bg-white mt-4 flex cursor-pointer items-center justify-between border"
+              >
+                <input
+                  type="text"
+                  class="text-gray-900 placeholder-gray-900 border-white w-full p-4 text-base leading-4 focus:outline-none"
+                  placeholder="E-mail"
+                />
+                <button
+                  aria-label="send"
+                  class="fill-current text-gray-800 hover:text-gray-500 focus:ring-gray-800 mr-4 focus:outline-none focus:ring-2 focus:ring-offset-2"
+                >
+                  <svg
+                    class=" "
+                    width="16"
+                    height="17"
+                    viewBox="0 0 16 17"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M14.8934 7.39673L14.8884 7.39457L1.54219 1.9166C1.42993 1.87011 1.30778 1.85187 1.18666 1.86353C1.06554 1.87519 0.949225 1.91637 0.848125 1.9834C0.741311 2.05266 0.653573 2.14711 0.592805 2.25826C0.532037 2.36941 0.500145 2.49376 0.5 2.62013V6.12357C0.50006 6.29633 0.561019 6.46366 0.67237 6.59671C0.783722 6.72976 0.938491 6.82021 1.11 6.85246L8.38906 8.18438C8.41767 8.18974 8.44348 8.20482 8.46205 8.22701C8.48062 8.2492 8.49078 8.2771 8.49078 8.30591C8.49078 8.33472 8.48062 8.36263 8.46205 8.38481C8.44348 8.407 8.41767 8.42208 8.38906 8.42744L1.11031 9.75936C0.938851 9.79153 0.784092 9.88185 0.67269 10.0148C0.561288 10.1477 0.500219 10.3149 0.5 10.4876V13.9917C0.499917 14.1124 0.530111 14.2312 0.587871 14.3374C0.645632 14.4437 0.729152 14.5341 0.830938 14.6006C0.953375 14.6811 1.09706 14.7241 1.24406 14.7243C1.34626 14.7242 1.4474 14.7039 1.54156 14.6646L14.8875 9.21787L14.8934 9.21509C15.0731 9.13869 15.2262 9.01185 15.3337 8.85025C15.4413 8.68866 15.4986 8.49941 15.4986 8.30591C15.4986 8.11241 15.4413 7.92316 15.3337 7.76157C15.2262 7.59997 15.0731 7.47313 14.8934 7.39673Z"
+                      fill="text-gray-800"
+                    />
+                  </svg>
+                </button>
+              </div>
             </div>
           </div>
-          <div class="lg:block hidden">
-            <label class="text-xl font-bold leading-5 text-gul">Hold dig opdateret!</label>
-            <div class="cursor-pointer flex items-center justify-between border  border-white mt-4 bg-white">
-              <input type="text"
-                class="text-base leading-4 p-4 w-full focus:outline-none  text-gray-900  placeholder-gray-900  border-white "
-                placeholder="E-mail" />
-              <button aria-label="send"
-                class="mr-4 fill-current text-gray-800 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800">
-                <svg class=" " width="16" height="17" viewBox="0 0 16 17" fill="currentColor"
-                  xmlns="http://www.w3.org/2000/svg">
+          <div class="mt-10 lg:hidden">
+            <label class="text-white text-xl font-medium leading-5"
+              >Hold dig opdateret!</label
+            >
+            <div
+              class="border-white bg-white mt-4 flex items-center justify-between border"
+            >
+              <input
+                type="text"
+                class="text-gray-800 placeholder-gray-800 border-white bg-white relative z-0 w-full p-4 text-base leading-4 focus:outline-none"
+                placeholder="E-mail"
+              />
+              <button
+                aria-label="send"
+                class="focus:ring-gray-800 relative z-40 mr-4 cursor-pointer cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2"
+              >
+                <svg
+                  class="fill-current text-gray-800 hover:text-gray-500"
+                  width="16"
+                  height="17"
+                  viewBox="0 0 16 17"
+                  fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
                   <path
                     d="M14.8934 7.39673L14.8884 7.39457L1.54219 1.9166C1.42993 1.87011 1.30778 1.85187 1.18666 1.86353C1.06554 1.87519 0.949225 1.91637 0.848125 1.9834C0.741311 2.05266 0.653573 2.14711 0.592805 2.25826C0.532037 2.36941 0.500145 2.49376 0.5 2.62013V6.12357C0.50006 6.29633 0.561019 6.46366 0.67237 6.59671C0.783722 6.72976 0.938491 6.82021 1.11 6.85246L8.38906 8.18438C8.41767 8.18974 8.44348 8.20482 8.46205 8.22701C8.48062 8.2492 8.49078 8.2771 8.49078 8.30591C8.49078 8.33472 8.48062 8.36263 8.46205 8.38481C8.44348 8.407 8.41767 8.42208 8.38906 8.42744L1.11031 9.75936C0.938851 9.79153 0.784092 9.88185 0.67269 10.0148C0.561288 10.1477 0.500219 10.3149 0.5 10.4876V13.9917C0.499917 14.1124 0.530111 14.2312 0.587871 14.3374C0.645632 14.4437 0.729152 14.5341 0.830938 14.6006C0.953375 14.6811 1.09706 14.7241 1.24406 14.7243C1.34626 14.7242 1.4474 14.7039 1.54156 14.6646L14.8875 9.21787L14.8934 9.21509C15.0731 9.13869 15.2262 9.01185 15.3337 8.85025C15.4413 8.68866 15.4986 8.49941 15.4986 8.30591C15.4986 8.11241 15.4413 7.92316 15.3337 7.76157C15.2262 7.59997 15.0731 7.47313 14.8934 7.39673Z"
-                    fill="text-gray-800" />
+                    fill="currentColor"
+                  />
                 </svg>
               </button>
             </div>
           </div>
         </div>
-        <div class="mt-10 lg:hidden">
-          <label class="text-xl font-medium leading-5  text-white">Hold dig opdateret!</label>
-          <div class="flex items-center justify-between border  border-white mt-4 bg-white">
-            <input type="text"
-              class="text-base leading-4 p-4 relative z-0 w-full focus:outline-none text-gray-800 placeholder-gray-800   border-white bg-white "
-              placeholder="E-mail" />
-            <button aria-label="send"
-              class="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 cursor-pointer mr-4 cursor-pointer relative z-40">
-              <svg class="fill-current text-gray-800 hover:text-gray-500  " width="16" height="17" viewBox="0 0 16 17"
-                fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M14.8934 7.39673L14.8884 7.39457L1.54219 1.9166C1.42993 1.87011 1.30778 1.85187 1.18666 1.86353C1.06554 1.87519 0.949225 1.91637 0.848125 1.9834C0.741311 2.05266 0.653573 2.14711 0.592805 2.25826C0.532037 2.36941 0.500145 2.49376 0.5 2.62013V6.12357C0.50006 6.29633 0.561019 6.46366 0.67237 6.59671C0.783722 6.72976 0.938491 6.82021 1.11 6.85246L8.38906 8.18438C8.41767 8.18974 8.44348 8.20482 8.46205 8.22701C8.48062 8.2492 8.49078 8.2771 8.49078 8.30591C8.49078 8.33472 8.48062 8.36263 8.46205 8.38481C8.44348 8.407 8.41767 8.42208 8.38906 8.42744L1.11031 9.75936C0.938851 9.79153 0.784092 9.88185 0.67269 10.0148C0.561288 10.1477 0.500219 10.3149 0.5 10.4876V13.9917C0.499917 14.1124 0.530111 14.2312 0.587871 14.3374C0.645632 14.4437 0.729152 14.5341 0.830938 14.6006C0.953375 14.6811 1.09706 14.7241 1.24406 14.7243C1.34626 14.7242 1.4474 14.7039 1.54156 14.6646L14.8875 9.21787L14.8934 9.21509C15.0731 9.13869 15.2262 9.01185 15.3337 8.85025C15.4413 8.68866 15.4986 8.49941 15.4986 8.30591C15.4986 8.11241 15.4413 7.92316 15.3337 7.76157C15.2262 7.59997 15.0731 7.47313 14.8934 7.39673Z"
-                  fill="currentColor" />
-              </svg>
-            </button>
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
     </footer>
 
     <script type="module" src="./main.js"></script>
