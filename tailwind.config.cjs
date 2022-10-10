@@ -12,9 +12,5 @@ module.exports = {
       red: "#F13434",
       green: "#8AE388",
     },
-    fontFamily: {
-      sans: ["Ultra", "sans-serif"],
-    },
   },
-  plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
 };
