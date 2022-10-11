@@ -14,6 +14,11 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, "src/index.html"),
+        events: resolve(__dirname, "src/events.html"),
+        vaermed: resolve(__dirname, "src/vaermed.html"),
+        festivalen: resolve(__dirname, "src/Festivalen.html"),
+        kontakt: resolve(__dirname, "src/Kontakt.html"),
+        forestillinger: resolve(__dirname, "src/forestillinger.html"),
         // about: resolve(__dirname, "src/about.html"),
       },
     },
