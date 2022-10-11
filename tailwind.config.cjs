@@ -10,7 +10,9 @@ module.exports = {
       pink: "#ff70f0",
       sand: "#f8ead0",
       red: "#F13434",
-      green: "#8AE388",
+      orange: "#FF7A00",
+      hvid: "#F5F5E3",
+      brun: "#C69C8A",
     },
   },
 };
