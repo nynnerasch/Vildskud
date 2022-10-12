@@ -5,7 +5,6 @@ module.exports = {
     extend: {
       inset: {
         glas: "45rem"
-        
       }
     },
     colors: {
