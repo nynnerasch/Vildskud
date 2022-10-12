@@ -7,6 +7,24 @@
     <title>Vildskud</title>
   </head>
   <body class="bg-[#f8ead0]">
+
+    <!-- cookie boks -->
+    <div class="w-1/3 fixed z-10 bottom-0 right-0 p-8 bg-blå border-4 border-pink" id="cookieboks">
+      <div>
+        <h3 class="text-2xl pb-5 text-sand">Denne hjemmeside bruger cookies </h3>
+        <p class="text-slate-500">Vi bruger cookies til at tilpasse vores indhold og annoncer, til at vise dig funktioner til sociale medier og til at analysere vores trafik. Vi deler også oplysninger om din brug af vores hjemmeside med vores partnere inden for sociale medier, annonceringspartnere og analysepartnere. Vores partnere kan kombinere disse data med andre oplysninger, du har givet dem, eller som de har indsamlet fra din brug af deres tjenester.</p>
+      </div>
+        <div class="buttons flex gap-10 p-5">
+        <div class="border border-green p-2 text-sand">
+          <button id="accepter">Accepter</button>
+        </div>
+        <div class="border border-red p-2 text-sand">
+        <button id="afvis">Afvis</button>
+      </div>
+        </div>
+    </div> 
+<!-- cookie boks slut  -->
+
     <!--ØVERSTE DEL-->
     <section class="bg-blå">
       <!-- <img src="blaa_blob.svg" alt="blob" class="absolute max-w-full"> -->
@@ -29,32 +47,32 @@
 
         <!--NAVIGATION-->
         <div
-          class="mb-20 max-w-full content-center justify-center bg-navy py-1 md:flex md:py-4 lg:py-6"
+          class="mb-20 max-w-full content-center justify-center bg-navy py-1 md:flex md:py-4 lg:py-6 "
         >
           <a href="events.html"
             ><button
-              class="p-5 text-sm font-bold text-gul hover:opacity-60 md:text-xl"
+              class="p-5 text-xs font-bold text-gul hover:opacity-60 md:text-xl"
             >
               EVENTS
             </button></a
           >
           <a href="vaermed.html"
             ><button
-              class="p-5 text-sm font-bold text-gul hover:opacity-60 md:text-xl"
+              class="p-5 text-xs font-bold text-gul hover:opacity-60 md:text-xl"
             >
               VÆR MED
             </button></a
           >
           <a href="Festivalen.html"
             ><button
-              class="p-5 text-sm font-bold text-gul hover:opacity-60 md:text-xl"
+              class="p-5 text-xs font-bold text-gul hover:opacity-60 md:text-xl"
             >
               FESTIVALEN
             </button></a
           >
           <a href="Kontakt.html"
             ><button
-              class="p-5 text-sm font-bold text-gul hover:opacity-60 md:text-xl"
+              class="p-5 text-xs font-bold text-gul hover:opacity-60 md:text-xl"
             >
               KONTAKT
             </button></a
@@ -71,6 +89,7 @@
       <img src="pink.svg" alt="pink" />
       <div class="bg-pink">
         <div class="relative md:mx-60">
+          <img class="absolute md:w-80 w-32 ml-2" src="smiley.svg" alt="smiley">
           <h2 class="pb-9 pt-10 text-center text-4xl font-bold text-gul">
             Program
           </h2>
@@ -82,6 +101,7 @@
           <p class="text-center text-gul">
             GO GO YO-YOKU <b> 16:45 og 20:15</b>
           </p>
+          <img class="absolute pt-12 md:pt-2 left-80 md:left-glas md:w-64 w-28 ml-2" src="champagneGlas.svg" alt="champagneGlas">
           <p class="text-center text-gul">
             RE-BIRTH <b> 15:00 & 18:15 & 20:15</b>
           </p>
@@ -117,7 +137,7 @@
     <div class="m-5 pb-11 text-center md:pb-20">
       <a href="forestillinger.html"
         ><button
-          class="md:text-md m-5 border-4 border-navy bg-[#FFFCC1] p-3 text-xl font-bold text-navy hover:bg-pink hover:text-hvid md:p-7"
+          class="text-sm md:text-md m-5 border-4 border-navy bg-[#FFFCC1] p-3 md:text-xl font-bold text-navy hover:bg-pink hover:text-hvid md:p-7"
         >
           LÆS OM FORESTILLINGERNE
         </button></a
@@ -125,24 +145,31 @@
     </div>
 
     <!--footer-->
+    <img src="Tegnebræt 1.svg" alt="blaa" />
     <footer class="bg-navy">
       <section class="mx-20 pt-10 pb-10 md:mx-60">
         <div class="md:flex md:gap-10">
           <div class="pb-10">
-            <h2 class="pb-2 text-gul">Vildskud</h2>
+            <h2 class="pb-2 text-gul font-bold">Vildskud</h2>
             <p class="text-gul">
               Vildskud er Københavns festival for uafhængig scenekunst. Vær med,
               se med. Vildskud er for alle der er interesserede i at dyrke og
               støtte spirende og uafhængige scenekunstnere.
             </p>
+            <p class="text-gul pt-4"><u> Privatlivspolitik</u></p>
+            <p class="text-gul pt-4"><u> Cookiepolitik</u></p>
           </div>
 
           <div class="">
-            <h2 class="pb-2 text-gul">Sociale medier</h2>
+            <h2 class="pb-2 text-gul font-bold">Sociale medier</h2>
             <p class="text-gul">
               Vil du gerne være den første til at høre, når der sker noget nyt
-              for Vildskud? Så følg os på vores SoMe kanaler.
+              for Vildskud? Så følg os på vores SoMe kanaler:
             </p>
+            <div class=" w-16 flex gap-5 pt-4">
+<img src="insta.svg" alt="insta">
+<img src="face.svg" alt="face">
+            </div>
           </div>
         </div>
       </section>
