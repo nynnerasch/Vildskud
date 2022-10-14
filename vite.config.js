@@ -19,6 +19,7 @@ export default defineConfig({
         festivalen: resolve(__dirname, "src/Festivalen.html"),
         kontakt: resolve(__dirname, "src/Kontakt.html"),
         forestillinger: resolve(__dirname, "src/forestillinger.html"),
+        sitemap: resolve(__dirname, "src/sitemap.html"),
         // about: resolve(__dirname, "src/about.html"),
       },
     },
